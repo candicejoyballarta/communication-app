@@ -1,0 +1,167 @@
+.shared-uploads button {
+	background-color: #66ffff;
+	padding: 5px 35px 5px 10px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+#upload-modal.modal {
+	border: 2px solid;
+	border-radius: 5px;
+	background-color: white;
+	z-index: 1;
+	width: 33em;
+	display: flex;
+}
+
+.height-inc {
+	height: 22rem;
+}
+
+#upload-modal.modal .header {
+	left: 45%;
+	font-weight: bold;
+}
+
+#upload-modal .modal-body {
+	width: 30rem;
+	margin-left: 2.5rem;
+}
+
+#upload-modal.modal label {
+	font-weight: bolder;
+	font-size: 16px;
+}
+
+#upload-modal .form-input {
+	margin-top: 1rem;
+}
+
+#upload-modal .upload-label {
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+
+#upload-modal .upload-file-input {
+	margin-left: 1.5rem;
+}
+
+#upload-modal.modal input[type='text'] {
+	margin-left: 4.4rem;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 8px 8px;
+	font-size: 14px;
+	width: 19rem;
+}
+
+#upload-modal.modal input[type='button'],
+#upload-modal.modal input[type='submit'] {
+	border: 2px solid;
+	border-radius: 10px;
+	background-color: #b3b3b3;
+	padding: 8px 12px;
+	font-weight: bolder;
+	font-size: 16px;
+	margin-top: 0.8rem;
+}
+
+#upload-modal .modal-buttons {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin-top: 5px;
+}
+
+#upload-modal.modal input[type='button'] {
+	padding: 8px 25px;
+	margin-left: 1.3rem;
+}
+
+#upload-modal.modal input[type='file'] {
+	font-size: 16px;
+	font-weight: bolder;
+	margin-left: 2.2rem;
+	width: 20rem;
+}
+
+#upload-modal.modal input::file-selector-button {
+	padding: 4px 10px;
+	border: 2px solid;
+	border-radius: 10px;
+	background-color: #b3b3b3;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 3rem;
+}
+
+#edit-modal.modal {
+	border: 2px solid;
+	border-radius: 5px;
+	width: 33em;
+	background-color: white;
+	z-index: 1;
+	display: none;
+	height: 14rem;
+}
+
+#edit-modal.modal .header {
+	left: 45%;
+	font-weight: bold;
+}
+
+#edit-modal.modal label {
+	font-weight: bolder;
+	font-size: 16px;
+}
+
+#edit-modal.modal input[type='text'] {
+	margin-left: 4.4rem;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 8px 8px;
+	font-size: 14px;
+	width: 19rem;
+}
+
+#edit-modal .form-input {
+	margin-top: 1rem;
+	margin-left: 4rem;
+}
+
+#edit-modal.modal input[type='button'],
+#edit-modal.modal input[type='submit'] {
+	border: 2px solid;
+	border-radius: 10px;
+	background-color: #b3b3b3;
+	padding: 8px 30px;
+	font-weight: bolder;
+	font-size: 16px;
+	margin-top: 0.8rem;
+}
+
+#edit-modal.modal input[type='button'] {
+	margin-left: 2rem;
+}
+
+#edit-modal .modal-buttons {
+	display: flex;
+	justify-content: left;
+	margin-left: 11rem;
+}
+
+#delete-modal .modal-question {
+	margin-bottom: 5px;
+}
+
+.label-head {
+	width: 40%;
+}
+
+.file-head {
+	width: 45%;
+}
+
+.action-share {
+	width: 15%;
+}

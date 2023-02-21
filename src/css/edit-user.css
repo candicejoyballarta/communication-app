@@ -1,0 +1,28 @@
+.edit-user-form {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2rem;
+}
+
+.edit-user-form label {
+	margin: 1.8rem;
+}
+
+.edit-user-form .content {
+	padding-right: 5px;
+}
+
+.edit-user-form .form-input {
+	margin-right: 8.5rem;
+}
+
+.edit-user-form .btn {
+	border-radius: 10px;
+	padding: 8px 50px;
+	text-align: center;
+	background-color: #66ffff;
+	font-weight: bold;
+}
