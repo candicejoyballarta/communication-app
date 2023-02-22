@@ -99,7 +99,16 @@ export const EditUser = (props) => {
 		if (!hasErrors) {
 			userToEdit.fullName = fullName;
 			userToEdit.email = email;
+
+			const loggedIn = JSON.parse(localStorage.getItem('loggedIn'));
+
+			if (loggedIn.id === userToEdit.id) {
+				loggedIn.fullName = fullName;
+				loggedIn.email = email;
+			}
+
 			localStorage.setItem('Users', JSON.stringify(userList));
+			localStorage.setItem('loggedIn', JSON.stringify(loggedIn));
 			navigate('/users-list');
 		}
 	};

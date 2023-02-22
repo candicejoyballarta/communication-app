@@ -106,6 +106,11 @@ export class Login extends React.Component {
 	}
 
 	render() {
+		const loggedIn = JSON.parse(localStorage.getItem('loggedIn'));
+		if (loggedIn) {
+			return <Navigate to='/' />;
+		}
+
 		return (
 			<div className='container w-screen'>
 				<h2 className='mt-title text-2xl font-bold'>Login</h2>

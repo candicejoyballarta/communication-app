@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Navigate } from 'react-router';
 
 export class Welcome extends Component {
-	constructor() {
-		super();
-		this.state = {};
-	}
-
 	render() {
+		const loggedIn = JSON.parse(localStorage.getItem('loggedIn'));
+		if (loggedIn) {
+			return <Navigate to='/' />;
+		}
 		return (
 			<div className='container'>
 				<h2 className='mt-title font-bold text-2xl'>
